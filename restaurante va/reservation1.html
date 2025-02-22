@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservación</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin: auto;
+            align-items: center;
+            height: 100vh;
+        }
+        .image-column {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .form-column {
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Columna de la imagen -->
+        
+
+        <!-- Columna del formulario -->
+        <div class="form-column">
+            <h1>Reservación</h1>
+            <p>Ofrecemos un sistema de reservación en línea conveniente. Simplemente selecciona la fecha, hora y número de personas, y nos aseguraremos de que tu mesa esté lista para tu llegada.</p>
+            
+            <div class="reservation-details">
+                <label for="name">Nombre del invitado</label>
+                <input type="text" id="name" placeholder="Nombre">
+                
+                <label for="guests">Número de invitados</label>
+                <input type="number" id="guests" placeholder="Número de invitados">
+                
+                <label for="phone">Número de teléfono</label>
+                <input type="tel" id="phone" placeholder="Número de teléfono">
+                
+                
+                <label for="date">Fecha</label>
+                <input type="text" id="date" placeholder="Vie 25, Sep">
+                
+                <label for="time">Hora</label>
+                <input type="text" id="time" placeholder="6:00 PM">
+            </div>
+            
+            <button class="book-btn">Reservar mesa</button>
+            
+            <div class="footer">
+                <p>dolce vita</p>
+                <p>dolce_vita@gmail.com</p>
+            </div>
+        </div>
+        <div class="image-column">
+            <img src="/image/Image 20.jpg" alt="Imagen de reservación">
+        </div>
+    </div>
+</body>
+</html>
