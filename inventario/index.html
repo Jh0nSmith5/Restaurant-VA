@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario Restaurante</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Inventario del Restaurante</h1>
+        <div class="form-container">
+            <input type="text" id="itemName" placeholder="Nombre del artículo">
+            <input type="number" id="itemQuantity" placeholder="Cantidad">
+            <button onclick="addItem()">Agregar</button>
+        </div>
+        <table id="inventoryTable">
+            <thead>
+                <tr>
+                    <th>Artículo</th>
+                    <th>Cantidad</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Los elementos del inventario se agregarán aquí dinámicamente -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
